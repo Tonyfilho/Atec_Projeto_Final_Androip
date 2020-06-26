@@ -1,0 +1,92 @@
+apply plugin: 'com.android.application'
+apply plugin: 'com.google.gms.google-services'
+
+android {
+    compileSdkVersion 29
+    buildToolsVersion "29.0.3"
+
+    defaultConfig {
+        applicationId "com.example.blogatec"
+        //minSdkVersion 21
+        minSdkVersion 16
+        targetSdkVersion 29
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+
+    implementation 'androidx.appcompat:appcompat:1.1.0'
+
+    /* New Version */
+    //implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
+    /* Version Used */
+    implementation 'androidx.constraintlayout:constraintlayout:1.1.0'
+
+    /* New Version */
+    //implementation 'com.google.firebase:firebase-auth:19.3.1'
+    /* Version Used On Tutorial */
+    //implementation 'com.google.firebase:firebase-auth:11.6.0'
+    implementation 'com.google.firebase:firebase-auth:11.8.0'
+
+    /* New Version */
+    //implementation 'com.google.firebase:firebase-storage:19.1.1'
+    /* Version Used On Tutorial */
+    implementation 'com.google.firebase:firebase-storage:11.8.0'
+
+    /* New Version */
+    //implementation 'com.google.firebase:firebase-firestore:21.4.3'
+    /* Version Used On Tutorial */
+    implementation 'com.google.firebase:firebase-firestore:11.8.0'
+
+    /* New Version */
+    //implementation 'com.firebaseui:firebase-ui-firestore:6.2.1'
+
+    /* New Version */
+    implementation 'de.hdodenhof:circleimageview:3.1.0'
+    /* Version Used On Tuturial */
+    //implementation 'de.hdodenhof:circleimageview:2.2.0'
+
+    /* New Version */
+    //api 'com.theartofdev.edmodo:android-image-cropper:2.8.0'
+    /* Version Used on Tuturial */
+    implementation 'com.theartofdev.edmodo:android-image-cropper:2.6.+'
+
+    /* New Version */
+    implementation 'com.github.bumptech.glide:glide:4.11.0'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.11.0'
+    /* Version Used on Tuturial */
+    //implementation 'com.github.bumptech.glide:glide:4.6.1'
+    //annotationProcessor 'com.github.bumptech.glide:compiler:4.6.1'
+
+    /* New Version */
+    //implementation 'id.zelory:compressor:3.0.0'
+    /* Version Used on Tuturial */
+    implementation 'id.zelory:compressor:2.1.0'
+
+    /* New Version */
+    //testImplementation 'junit:junit:4.13'
+    /* Version Used */
+    testImplementation 'junit:junit:4.13'
+
+    androidTestImplementation 'androidx.test.ext:junit:1.1.1'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
+
+    /* New Version */
+    implementation 'com.google.android.material:material:1.1.0'
+    /* Version Used */
+    //implementation 'com.google.android.material:material:1.0.0-rc01'
+
+}

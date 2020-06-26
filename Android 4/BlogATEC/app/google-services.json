@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "515319318452",
+    "firebase_url": "https://blogatec-19dda20.firebaseio.com",
+    "project_id": "blogatec-19dda20",
+    "storage_bucket": "blogatec-19dda20.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:515319318452:android:d904a9a8ee341ac912d4e1",
+        "android_client_info": {
+          "package_name": "com.example.blogatec"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "515319318452-fknsqhd9c1oc5ahho8pc0b072nsqg8at.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBdef10dBNXwLYhbjIPQqSqq87_k3KBDC0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "515319318452-fknsqhd9c1oc5ahho8pc0b072nsqg8at.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
